@@ -9,8 +9,30 @@
 1.3. Даны массив чисел 477, 5, 120, 1, 34, -44, 55, 0. Найти минимальное и максимальное число.
 1.4. Даны два числа.  Найти модуль разности этих чисел.
 */
+console.log("1.1 Найти квадратный корень из 2019: ");
 let x = 2019;
+let z = Math.sqrt(x);
+let s = Math.ceil(z);
+let w = Math.round(z * 10) / 100;
+console.log("Квадратный корень из 2019:", z);
+console.log("До целых: ", s);
+console.log("До десятых: ");
+console.log("До сотых: ", w);
 
+console.log("1.2 Найти квадратный корень из 863 ");
+let p = 863;
+let a = Math.sqrt(p);
+let z1 = Math.ceil(a);
+let z2 = Math.floor(a);
+let result = {
+  first: z1,
+  second: z2
+};
+console.log("Квадратный корень из 863:", a);
+console.log(result);
+
+console.log("1.3 Найти минимальное и максимальное число.");
+let arr = [10, 2, 33, 4, 5];
 /*
 Задача 2. Объект JavaScript Date..
 2.1. Создать дату используя год и месяц (2015 год, январь)
